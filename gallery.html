@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея — Mizu Sushi Бердичів</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="brand-accent">Mizu</span> Sushi
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню</a></li>
+                    <li><a href="gallery.html" class="active" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button data-lang="uk" class="lang-btn active">UA</button>
+                    <button data-lang="ru" class="lang-btn">RU</button>
+                    <button data-lang="en" class="lang-btn">EN</button>
+                </div>
+                <a href="tel:+380680667991" class="phone-btn">+380 68 066 7991</a>
+                <button class="mobile-menu-toggle" aria-label="Меню">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="gallery_page_title">Фотогалерея</h1>
+                <p data-i18n="gallery_page_subtitle">Наші страви та затишна атмосфера Mizu Sushi</p>
+            </div>
+        </section>
+
+        <section class="gallery-section section-padding">
+            <div class="container">
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/photo-03.jpg" alt="Mizu Sushi інтер'єр та страви" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <a href="index.html" class="logo">
+                    <span class="brand-accent">Mizu</span> Sushi
+                </a>
+                <p data-i18n="footer_about">Вишукані страви азійської кухні в самому серці Бердичева.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_nav_title">Навігація</h4>
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Контакти</h4>
+                <p>вул. Шевченка, 11, Бердичів</p>
+                <p><a href="tel:+380680667991">+380 68 066 7991</a></p>
+                <p data-i18n="footer_hours">Пн-Нд: 10:00 - 21:00</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/mizu_sushi_berdichev" target="_blank" rel="noopener">Instagram</a>
+                    <a href="https://maps.google.com/?q=Бердичів+вул.+Шевченка+11" target="_blank" rel="noopener" data-i18n="map_link">Google Maps</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; Mizu Sushi Бердичів. <span data-i18n="all_rights">Усі права захищені.</span></p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
